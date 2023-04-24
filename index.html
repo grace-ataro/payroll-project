@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  </head>
+  <body>
+    <style>
+   
+    </style>
+    <div class="row">
+    <div class="col-lg-1 col-md-2">
+      
+    </div>
+    <div class="col-lg-10 col-md-8 col-sm-12">
+    <div class="container">
+      <nav class="navbar bg-body-tertiary">
+        <div class="container">
+          <a class="navbar-brand" href="#">
+            <img src="logo.png" alt="My logo" length="150px" width="150px">
+          </a>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <h1>NET PAY CALCULATOR</h1>
+      <p>Enter The Gross Salary Below Amount To Calculate Your Net Amount</p>
+      <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
+        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group"> 
+        <button class="kes-btn" id="currency">KES</button>
+        <input class="enter" id="sal" type="text">
+        <button class="calc-btn" id="calc" onclick="cal()">Calculate</button>
+        </div>
+      <table class="table table-bordered">
+        <thead>
+        <tr>
+          <th scope="col">Description</th>
+          <th scope="col">Results</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Base Salary</td>
+          <td id="base"></td>
+        </tr>
+        <tr>
+          <td>NSSF Tier 1</td>
+          <td id="nssf1"></td>
+        </tr>
+        <tr>
+          <td>NSSF Tier 2</td>
+          <td id="nssf2"></td>
+        </tr>
+        <tr>
+          <td>Final P.A.Y.E.E</td>
+          <td id="paye"></td>
+        </tr>
+        <tr>
+          <td>NHIF</td>
+          <td id="nhif"></td>
+        </tr>
+        <tr>
+          <td>Net Pay</td>
+          <td id="net-sal"></td>
+        </tr>
+      </tbody>
+    </table>
+      </table>
+      </div>
+    </div>
+    </div>
+    <div class="col-lg-1 col-md-2">
+
+    </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
