@@ -30,7 +30,7 @@ function cal() {
             alert("Enter valid amount of salary")
 
         }
-        document.getElementById("paye").innerHTML=payee
+        document.getElementById("payee").innerHTML=payee
 
         let nhif=""
         if (base>0 && base<=5999){
