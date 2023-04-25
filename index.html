@@ -10,28 +10,28 @@
     <style>
    
     </style>
-    <div class="row">
-    <div class="col-lg-1 col-md-2">
-      
-    </div>
-    <div class="col-lg-10 col-md-8 col-sm-12">
-    <div class="container">
+    
       <nav class="navbar bg-body-tertiary">
-        <div class="container">
+        <div class="container-fluid">
           <a class="navbar-brand" href="#">
             <img src="logo.png" alt="My logo" length="150px" width="150px">
           </a>
         </div>
       </nav>
-    </div>
+    
+  <div class="row">
+      <div class="col-lg-1 col-md-2">
+        
+      </div>
+   <div class="col-lg-10 col-md-8 col-sm-12">
     <div class="container">
-      <h1>NET PAY CALCULATOR</h1>
+      <h1 style="font-size: 60px;">NET PAY CALCULATOR</h1>
       <p>Enter The Gross Salary Below Amount To Calculate Your Net Amount</p>
       <div class="shadow p-3 mb-5 bg-body-tertiary rounded">
-        <div class="btn-group btn-group-lg" role="group" aria-label="Large button group"> 
-        <button class="kes-btn" id="currency">KES</button>
-        <input class="enter" id="sal" type="text">
-        <button class="calc-btn" id="calc" onclick="cal()">Calculate</button>
+        <div class="input-group mb-3">
+          <span class="input-group-text" id="currency" style=" background-color: lightgray;">KES</span>
+          <input type="text" class="enter" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default" id="sal" style="min-width:1000px ;">
+          <button class="calc-btn" id="calc" onclick="cal()" style="background-color:orange;">Calculate</button>
         </div>
       <table class="table table-bordered">
         <thead>
@@ -68,13 +68,15 @@
       </tbody>
     </table>
       </table>
-      </div>
+    </div>
+    </div>
     </div>
     </div>
     <div class="col-lg-1 col-md-2">
 
     </div>
-    </div>
+  
+  </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
     <script src="index.js"></script>
   </body>
